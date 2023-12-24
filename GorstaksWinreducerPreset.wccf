@@ -2,15 +2,15 @@
 <!--File generated with a WinReducer Software created by Winterstorm2050 from www.winreducer.net-->
 <Packages>
   <WinReducerEX>110</WinReducerEX>
-  <Version>v3.5.2.0</Version>
-  <Date>12/11/2023 4:55:49 PM</Date>
+  <Version>v3.7.5.0</Version>
+  <Date>12/24/2023 10:17:20 AM</Date>
   <Components>
-    <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="false" Value="" />
-    <Element Category="Appearance" Name="Safe Mode" Selected="false" Value="" />
+    <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="true" Value="" />
+    <Element Category="Appearance" Name="Safe Mode" Selected="true" Value="Safe Mode" />
     <Element Category="Appearance" Name="Hibernate" Selected="false" Value="" />
-    <Element Category="Appearance" Name="Logout" Selected="false" Value="" />
-    <Element Category="Appearance" Name="Restart" Selected="false" Value="" />
-    <Element Category="Appearance" Name="Shutdown" Selected="false" Value="" />
+    <Element Category="Appearance" Name="Logout" Selected="true" Value="Logout" />
+    <Element Category="Appearance" Name="Restart" Selected="true" Value="Restart" />
+    <Element Category="Appearance" Name="Shutdown" Selected="true" Value="Shutdown" />
     <Element Category="Appearance" Name="Shutdown (Hybrid)" Selected="false" Value="" />
     <Element Category="Appearance" Name="Activate Theme Support" Selected="false" Value="" />
     <Element Category="Appearance" Name="WinReducer Theme Pack" Selected="false" Value="" />
@@ -77,7 +77,7 @@
     <Element Category="Features" Name="Windows Sandbox" Selected="true" Value="3" />
     <Element Category="Features" Name="Windows Search" Selected="false" Value="" />
     <Element Category="Features" Name="Windows Subsystem for Linux" Selected="true" Value="3" />
-    <Element Category="Features" Name="Work Folders" Selected="false" Value="3" />
+    <Element Category="Features" Name="Work Folders" Selected="false" Value="" />
     <Element Category="Features" Name="XPS Viewer and Printer" Selected="true" Value="3" />
     <Element Category="Remove - Accessories" Name="16-bit Support" Selected="true" />
     <Element Category="Remove - Accessories" Name="Adaptive Cards" Selected="true" />
@@ -784,7 +784,7 @@
     <Element Category="Remove - Modern UI Apps" Name="Web Media Extensions (VP9)" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Alarms" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Calculator" Selected="true" />
-    <Element Category="Remove - Modern UI Apps" Name="Windows Defender" Selected="true" />
+    <Element Category="Remove - Modern UI Apps" Name="Windows Defender" Selected="false" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Feature Experience Pack (Online)" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Feedback" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Maps" Selected="true" />
@@ -805,7 +805,7 @@
     <Element Category="Remove - Modern UI Apps" Name="Your Phone" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Zune Music" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Zune Video" Selected="true" />
-    <Element Category="Remove - Multimedia" Name="ActiveX control for streaming video" Selected="true" />
+    <Element Category="Remove - Multimedia" Name="ActiveX control for streaming video" Selected="false" />
     <Element Category="Remove - Multimedia" Name="Battery Meter" Selected="false" />
     <Element Category="Remove - Multimedia" Name="Biometry - Face Authentication" Selected="false" />
     <Element Category="Remove - Multimedia" Name="Biometry - Face Detection" Selected="false" />
@@ -829,11 +829,11 @@
     <Element Category="Remove - Multimedia" Name="Codec - Camera" Selected="false" />
     <Element Category="Remove - Multimedia" Name="Codec - Cinepak" Selected="true" />
     <Element Category="Remove - Multimedia" Name="Codec - Dolby ATMOS (Encoder)" Selected="true" />
-    <Element Category="Remove - Multimedia" Name="Codec - Dolby Digital (Decoder)" Selected="true" />
+    <Element Category="Remove - Multimedia" Name="Codec - Dolby Digital (Decoder)" Selected="false" />
     <Element Category="Remove - Multimedia" Name="Codec - Dolby Digital (Encoder)" Selected="true" />
     <Element Category="Remove - Multimedia" Name="Codec - DV (Decoder)" Selected="true" />
     <Element Category="Remove - Multimedia" Name="Codec - DV (Encoder)" Selected="true" />
-    <Element Category="Remove - Multimedia" Name="Codec - Flac (Decoder)" Selected="true" />
+    <Element Category="Remove - Multimedia" Name="Codec - Flac (Decoder)" Selected="false" />
     <Element Category="Remove - Multimedia" Name="Codec - Flac (Encoder)" Selected="true" />
     <Element Category="Remove - Multimedia" Name="Codec - Indeo4" Selected="true" />
     <Element Category="Remove - Multimedia" Name="Codec - Indeo5" Selected="true" />
@@ -990,11 +990,11 @@
     <Element Category="Remove - Themes" Name="Cursors - Inverted" Selected="false" />
     <Element Category="Remove - Themes" Name="Cursors - Inverted (L)" Selected="false" />
     <Element Category="Remove - Themes" Name="Cursors - Inverted (XL)" Selected="false" />
-    <Element Category="Remove - Themes" Name="Cursors - Magnified" Selected="true" />
-    <Element Category="Remove - Themes" Name="Cursors - Standard (L)" Selected="true" />
-    <Element Category="Remove - Themes" Name="Cursors - Standard (XL)" Selected="true" />
-    <Element Category="Remove - Themes" Name="Icons - More Icons" Selected="true" />
-    <Element Category="Remove - Themes" Name="Lockscreen - Pictures" Selected="true" />
+    <Element Category="Remove - Themes" Name="Cursors - Magnified" Selected="false" />
+    <Element Category="Remove - Themes" Name="Cursors - Standard (L)" Selected="false" />
+    <Element Category="Remove - Themes" Name="Cursors - Standard (XL)" Selected="false" />
+    <Element Category="Remove - Themes" Name="Icons - More Icons" Selected="false" />
+    <Element Category="Remove - Themes" Name="Lockscreen - Pictures" Selected="false" />
     <Element Category="Remove - Themes" Name="Screensavers - Blank" Selected="true" />
     <Element Category="Remove - Themes" Name="Screensavers - Bubbles" Selected="true" />
     <Element Category="Remove - Themes" Name="Screensavers - Mystify" Selected="true" />
@@ -1002,7 +1002,7 @@
     <Element Category="Remove - Themes" Name="Screensavers - Ribbons" Selected="true" />
     <Element Category="Remove - Themes" Name="Screensavers - Text 3D" Selected="true" />
     <Element Category="Remove - Themes" Name="Sounds" Selected="true" />
-    <Element Category="Remove - Themes" Name="Themes - Ease of Access" Selected="true" />
+    <Element Category="Remove - Themes" Name="Themes - Ease of Access" Selected="false" />
     <Element Category="Remove - Themes" Name="Themes - Flowers" Selected="true" />
     <Element Category="Remove - Themes" Name="Themes - Lines and Colors" Selected="true" />
     <Element Category="Remove - Themes" Name="Wallpapers - Flowers" Selected="true" />
@@ -1058,17 +1058,17 @@
     <Element Category="Privacy" Name="Videos - Allow apps to access videos library" Selected="true" />
     <Element Category="Privacy" Name="Voice activation - Allow apps to use voice activation" Selected="true" />
     <Element Category="Privacy" Name="Voice activation - Allow apps to use voice activation when this device is locked" Selected="true" />
-    <Element Category="Settings" Name="Accounts - Access work or school" Selected="true" />
-    <Element Category="Settings" Name="Accounts - Email and app accounts" Selected="true" />
-    <Element Category="Settings" Name="Accounts - Family and other people" Selected="true" />
-    <Element Category="Settings" Name="Accounts - Sign-in options" Selected="true" />
+    <Element Category="Settings" Name="Accounts - Access work or school" Selected="false" />
+    <Element Category="Settings" Name="Accounts - Email and app accounts" Selected="false" />
+    <Element Category="Settings" Name="Accounts - Family and other people" Selected="false" />
+    <Element Category="Settings" Name="Accounts - Sign-in options" Selected="false" />
     <Element Category="Settings" Name="Accounts - Sync your settings" Selected="true" />
     <Element Category="Settings" Name="Accounts - Your info" Selected="false" />
     <Element Category="Settings" Name="Apps - Apps and features" Selected="false" />
-    <Element Category="Settings" Name="Apps - Apps for websites" Selected="true" />
+    <Element Category="Settings" Name="Apps - Apps for websites" Selected="false" />
     <Element Category="Settings" Name="Apps - Offline maps" Selected="true" />
-    <Element Category="Settings" Name="Apps - Startup" Selected="true" />
-    <Element Category="Settings" Name="Apps - Video playback" Selected="true" />
+    <Element Category="Settings" Name="Apps - Startup" Selected="false" />
+    <Element Category="Settings" Name="Apps - Video playback" Selected="false" />
     <Element Category="Settings" Name="Devices - AutoPlay" Selected="false" />
     <Element Category="Settings" Name="Devices - Bluetooth and other devices" Selected="false" />
     <Element Category="Settings" Name="Devices - Mouse" Selected="false" />
@@ -1077,27 +1077,27 @@
     <Element Category="Settings" Name="Devices - Touchpad" Selected="false" />
     <Element Category="Settings" Name="Devices - Typing" Selected="false" />
     <Element Category="Settings" Name="Devices - Wheel" Selected="false" />
-    <Element Category="Settings" Name="Ease of Access - Audio" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Closed captions" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Color Filters" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Display" Selected="true" />
+    <Element Category="Settings" Name="Ease of Access - Audio" Selected="false" />
+    <Element Category="Settings" Name="Ease of Access - Closed captions" Selected="false" />
+    <Element Category="Settings" Name="Ease of Access - Color Filters" Selected="false" />
+    <Element Category="Settings" Name="Ease of Access - Display" Selected="false" />
     <Element Category="Settings" Name="Ease of Access - Eye Control" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - High Contrast" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Keyboard" Selected="true" />
+    <Element Category="Settings" Name="Ease of Access - High Contrast" Selected="false" />
+    <Element Category="Settings" Name="Ease of Access - Keyboard" Selected="false" />
     <Element Category="Settings" Name="Ease of Access - Magnifier" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Mouse" Selected="true" />
+    <Element Category="Settings" Name="Ease of Access - Mouse" Selected="false" />
     <Element Category="Settings" Name="Ease of Access - Narrator" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Other options" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Speech" Selected="true" />
-    <Element Category="Settings" Name="Ease of Access - Text Cursor" Selected="true" />
-    <Element Category="Settings" Name="Extras" Selected="true" />
+    <Element Category="Settings" Name="Ease of Access - Other options" Selected="false" />
+    <Element Category="Settings" Name="Ease of Access - Speech" Selected="false" />
+    <Element Category="Settings" Name="Ease of Access - Text Cursor" Selected="false" />
+    <Element Category="Settings" Name="Extras" Selected="false" />
     <Element Category="Settings" Name="Gaming - Broadcasting" Selected="true" />
     <Element Category="Settings" Name="Gaming - Game bar" Selected="true" />
     <Element Category="Settings" Name="Gaming - Game DVR" Selected="true" />
-    <Element Category="Settings" Name="Gaming - Game Mode" Selected="true" />
+    <Element Category="Settings" Name="Gaming - Game Mode" Selected="false" />
     <Element Category="Settings" Name="Gaming - TruePlay" Selected="true" />
     <Element Category="Settings" Name="Gaming - Xbox Networking" Selected="true" />
-    <Element Category="Settings" Name="Mixed reality - Audio and speech" Selected="true" />
+    <Element Category="Settings" Name="Mixed reality - Audio and speech" Selected="false" />
     <Element Category="Settings" Name="Network and Internet - Airplane mode" Selected="false" />
     <Element Category="Settings" Name="Network and Internet - Cellular and SIM" Selected="false" />
     <Element Category="Settings" Name="Network and Internet - Data Usage" Selected="true" />
@@ -1117,76 +1117,76 @@
     <Element Category="Settings" Name="Personalization - Lock screen" Selected="false" />
     <Element Category="Settings" Name="Personalization - Taskbar" Selected="false" />
     <Element Category="Settings" Name="Personalization - Themes" Selected="false" />
-    <Element Category="Settings" Name="Phone" Selected="true" />
-    <Element Category="Settings" Name="Phone - Add a phone" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Account Info" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Activity History" Selected="true" />
-    <Element Category="Settings" Name="Privacy - App diagnostics" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Automatic file downloads" Selected="true" />
+    <Element Category="Settings" Name="Phone" Selected="false" />
+    <Element Category="Settings" Name="Phone - Add a phone" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Account Info" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Activity History" Selected="false" />
+    <Element Category="Settings" Name="Privacy - App diagnostics" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Automatic file downloads" Selected="false" />
     <Element Category="Settings" Name="Privacy - Background apps" Selected="false" />
-    <Element Category="Settings" Name="Privacy - Calendar" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Call history" Selected="true" />
+    <Element Category="Settings" Name="Privacy - Calendar" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Call history" Selected="false" />
     <Element Category="Settings" Name="Privacy - Camera" Selected="false" />
-    <Element Category="Settings" Name="Privacy - Contacts" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Documents" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Email" Selected="true" />
-    <Element Category="Settings" Name="Privacy - General" Selected="true" />
-    <Element Category="Settings" Name="Privacy - File System" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Feedback and diagnostics" Selected="true" />
+    <Element Category="Settings" Name="Privacy - Contacts" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Documents" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Email" Selected="false" />
+    <Element Category="Settings" Name="Privacy - General" Selected="false" />
+    <Element Category="Settings" Name="Privacy - File System" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Feedback and diagnostics" Selected="false" />
     <Element Category="Settings" Name="Privacy - Inking and Typing Personalization" Selected="false" />
     <Element Category="Settings" Name="Privacy - Location" Selected="false" />
-    <Element Category="Settings" Name="Privacy - Messaging" Selected="true" />
+    <Element Category="Settings" Name="Privacy - Messaging" Selected="false" />
     <Element Category="Settings" Name="Privacy - Microphone" Selected="false" />
-    <Element Category="Settings" Name="Privacy - Notifications" Selected="true" />
+    <Element Category="Settings" Name="Privacy - Notifications" Selected="false" />
     <Element Category="Settings" Name="Privacy - Other devices" Selected="false" />
-    <Element Category="Settings" Name="Privacy - Phone calls" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Pictures" Selected="true" />
+    <Element Category="Settings" Name="Privacy - Phone calls" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Pictures" Selected="false" />
     <Element Category="Settings" Name="Privacy - Radios" Selected="false" />
-    <Element Category="Settings" Name="Privacy - Speech" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Speech, inking and typing" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Tasks" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Videos" Selected="true" />
-    <Element Category="Settings" Name="Privacy - Voice activation" Selected="true" />
-    <Element Category="Settings" Name="Search - Permissions and history" Selected="true" />
-    <Element Category="Settings" Name="Search - Searching Windows" Selected="true" />
-    <Element Category="Settings" Name="Search - More details" Selected="true" />
-    <Element Category="Settings" Name="Surface Hub - Accounts" Selected="true" />
-    <Element Category="Settings" Name="Surface Hub - Team Conferencing" Selected="true" />
-    <Element Category="Settings" Name="Surface Hub - Team device management" Selected="true" />
-    <Element Category="Settings" Name="Surface Hub - Session cleanup" Selected="true" />
-    <Element Category="Settings" Name="Surface Hub - Welcome screen" Selected="true" />
+    <Element Category="Settings" Name="Privacy - Speech" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Speech, inking and typing" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Tasks" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Videos" Selected="false" />
+    <Element Category="Settings" Name="Privacy - Voice activation" Selected="false" />
+    <Element Category="Settings" Name="Search - Permissions and history" Selected="false" />
+    <Element Category="Settings" Name="Search - Searching Windows" Selected="false" />
+    <Element Category="Settings" Name="Search - More details" Selected="false" />
+    <Element Category="Settings" Name="Surface Hub - Accounts" Selected="false" />
+    <Element Category="Settings" Name="Surface Hub - Team Conferencing" Selected="false" />
+    <Element Category="Settings" Name="Surface Hub - Team device management" Selected="false" />
+    <Element Category="Settings" Name="Surface Hub - Session cleanup" Selected="false" />
+    <Element Category="Settings" Name="Surface Hub - Welcome screen" Selected="false" />
     <Element Category="Settings" Name="System - Battery" Selected="false" />
     <Element Category="Settings" Name="System - Battery - Battery usage by app" Selected="false" />
     <Element Category="Settings" Name="System - Battery - Battery Saver settings" Selected="false" />
-    <Element Category="Settings" Name="System - Clipboard" Selected="true" />
+    <Element Category="Settings" Name="System - Clipboard" Selected="false" />
     <Element Category="Settings" Name="System - Display" Selected="false" />
     <Element Category="Settings" Name="System - Focus Assist" Selected="true" />
     <Element Category="Settings" Name="System - Multitasking" Selected="false" />
-    <Element Category="Settings" Name="System - Notifications and actions" Selected="true" />
+    <Element Category="Settings" Name="System - Notifications and actions" Selected="false" />
     <Element Category="Settings" Name="System - Power and sleep" Selected="false" />
-    <Element Category="Settings" Name="System - Projecting to this PC" Selected="true" />
-    <Element Category="Settings" Name="System - Remote Desktop" Selected="true" />
-    <Element Category="Settings" Name="System - Shared experiences" Selected="true" />
+    <Element Category="Settings" Name="System - Projecting to this PC" Selected="false" />
+    <Element Category="Settings" Name="System - Remote Desktop" Selected="false" />
+    <Element Category="Settings" Name="System - Shared experiences" Selected="false" />
     <Element Category="Settings" Name="System - Sound" Selected="false" />
-    <Element Category="Settings" Name="System - Storage" Selected="true" />
-    <Element Category="Settings" Name="System - Storage - Save locations" Selected="true" />
-    <Element Category="Settings" Name="System - Storage - Change how we free up space" Selected="true" />
-    <Element Category="Settings" Name="System - Tablet mode" Selected="true" />
+    <Element Category="Settings" Name="System - Storage" Selected="false" />
+    <Element Category="Settings" Name="System - Storage - Save locations" Selected="false" />
+    <Element Category="Settings" Name="System - Storage - Change how we free up space" Selected="false" />
+    <Element Category="Settings" Name="System - Tablet mode" Selected="false" />
     <Element Category="Settings" Name="Time and language - Region and language" Selected="false" />
     <Element Category="Settings" Name="Time and language - Speech" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Backup" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Find My Device" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - For developers" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Recovery" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Troubleshoot" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Defender" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Insider Program" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Update" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Update - Check for updates" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Update - Update history" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Update - Restart options" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Update - Advanced options" Selected="true" />
-    <Element Category="Settings" Name="Update and Security - Windows Update - Advanced options - Delivery Optimization" Selected="true" />
+    <Element Category="Settings" Name="Update and Security - Backup" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Find My Device" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - For developers" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Recovery" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Troubleshoot" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Defender" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Insider Program" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Update" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Update - Check for updates" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Update - Update history" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Update - Restart options" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Update - Advanced options" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Update - Advanced options - Delivery Optimization" Selected="false" />
     <Element Category="Tweaks" Name="Classic GUI - Enable Classic Action Center UI" Selected="false" />
     <Element Category="Tweaks" Name="Classic GUI - Enable Classic Battery Fly-out UI" Selected="false" />
     <Element Category="Tweaks" Name="Classic GUI - Enable Classic Calendar UI" Selected="false" />
@@ -1215,7 +1215,7 @@
     <Element Category="Tweaks" Name="Desktop - Disable JPEG Wallpaper Import Quality Reduction" Selected="true" />
     <Element Category="Tweaks" Name="Desktop - Hide Icons" Selected="false" />
     <Element Category="Tweaks" Name="Desktop - Hide Popup Help Tips" Selected="true" />
-    <Element Category="Tweaks" Name="Desktop - Remove Recycle Bin Icon" Selected="true" />
+    <Element Category="Tweaks" Name="Desktop - Remove Recycle Bin Icon" Selected="false" />
     <Element Category="Tweaks" Name="Desktop - Save User Customized Settings" Selected="false" />
     <Element Category="Tweaks" Name="Explorer - Automatically Expand to Current Folder" Selected="false" />
     <Element Category="Tweaks" Name="Explorer - Command Bar - Remove Burn" Selected="false" />
@@ -1289,7 +1289,7 @@
     <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Disable Save Protected Media Licenses on my Device" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Disable Shopping Assistant" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Disable Show Search Suggestion as I type" Selected="false" />
-    <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Disable Smart Screen" Selected="true" />
+    <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Disable Smart Screen" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Enable Send Do Not Tracks Requests" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Show Favorites Bar" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Apps - Edge - Show Favorites Bar (Pinned Panel)" Selected="false" />
@@ -1436,8 +1436,8 @@
     <Element Category="Optimizations" Name="Windows - WinSXS Backup Folder Cleanup (boot.wim)" Selected="true" />
     <Element Category="Optimizations" Name="Windows - WinSXS Backup Folder Cleanup (install.wim)" Selected="true" />
     <Element Category="Optimizations" Name="EXPERT - Deep Cleanup" Selected="true" />
-    <Element Category="Optimizations" Name="EXPERT - Net Framework Complete Cleanup" Selected="true" Value="true" Other="true" />
-    <Element Category="Optimizations" Name="EXPERT - Net Framework Light Cleanup" Selected="true" />
+    <Element Category="Optimizations" Name="EXPERT - Net Framework Complete Cleanup" Selected="false" Value="" Other="" />
+    <Element Category="Optimizations" Name="EXPERT - Net Framework Light Cleanup" Selected="false" />
     <Element Category="Optimizations" Name="EXPERT - Windows Updates Files Cleanup (Complete)" Selected="true" Value="" />
     <Element Category="Optimizations" Name="EXPERT - Windows Updates Files Cleanup (Light)" Selected="true" Value="" />
     <Element Category="Optimizations" Name="EXPERT - WinSXS Folder Cleanup (boot.wim)" Selected="true" />
@@ -1540,7 +1540,7 @@
     <Element Category="Services" Name="Remote Registry Service" Selected="true" Value="5" />
     <Element Category="Services" Name="Routing and Remote Access Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Secondary Logon Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Security Center Service" Selected="true" Value="5" />
+    <Element Category="Services" Name="Security Center Service" Selected="false" Value="" />
     <Element Category="Services" Name="Sensor Data Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Sensor Monitoring Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Server Service" Selected="true" Value="3" />
@@ -1560,7 +1560,7 @@
     <Element Category="Services" Name="TCP IP NetBIOS Helper Service" Selected="false" Value="" />
     <Element Category="Services" Name="Telephony Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Touch Keyboard and Handwriting Panel Service" Selected="true" Value="4" />
-    <Element Category="Services" Name="Update Orchestrator Service" Selected="true" Value="5" />
+    <Element Category="Services" Name="Update Orchestrator Service" Selected="true" Value="3" />
     <Element Category="Services" Name="UPnP Device Host Service" Selected="true" Value="3" />
     <Element Category="Services" Name="User Data Access Service" Selected="true" Value="3" />
     <Element Category="Services" Name="User Experience Virtualization Service" Selected="true" Value="5" />
@@ -1577,9 +1577,9 @@
     <Element Category="Services" Name="Windows Connection Manager Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Container Isolation Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Windows Container Name Virtualization Service" Selected="true" Value="3" />
-    <Element Category="Services" Name="Windows Defender Service" Selected="true" Value="5" />
-    <Element Category="Services" Name="Windows Defender Security Center Service" Selected="true" Value="5" />
-    <Element Category="Services" Name="Windows Defender System Guard Service" Selected="true" Value="5" />
+    <Element Category="Services" Name="Windows Defender Service" Selected="false" Value="" />
+    <Element Category="Services" Name="Windows Defender Security Center Service" Selected="false" Value="" />
+    <Element Category="Services" Name="Windows Defender System Guard Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Error Reporting Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Event Collector Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Font Cache Service" Selected="true" Value="3" />
@@ -1595,12 +1595,12 @@
     <Element Category="Services" Name="Windows Store (PushToInstall) Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Time Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Windows Update Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Windows Update Medic Service" Selected="true" Value="5" />
+    <Element Category="Services" Name="Windows Update Medic Service" Selected="true" Value="3" />
     <Element Category="Services" Name="WinHTTP Web Proxy Auto-Discovery Service" Selected="false" Value="" />
     <Element Category="Services" Name="Wired AutoConfig Service" Selected="false" Value="" />
     <Element Category="Services" Name="Workstation Service" Selected="false" Value="" />
     <Element Category="Services" Name="WLAN AutoConfig Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Work Folders Service" Selected="false" Value="5" />
+    <Element Category="Services" Name="Work Folders Service" Selected="false" Value="" />
     <Element Category="Services" Name="WWAN AutoConfig Service" Selected="true" Value="3" />
     <Element Category="Services" Name="WWAN (Local Profile Assistant) Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Xbox Accessory Management Service" Selected="true" Value="5" />
@@ -1663,14 +1663,14 @@
     <Element Category="Unattended" Name="Disable TCG Security Activation" Selected="false" />
     <Element Category="Unattended" Name="Prevent Device Encryption" Selected="false" />
     <Element Category="Unattended" Name="Join a Domain" Selected="false" DName="" DUsername="" DPassword="" Debug="false" />
-    <Element Category="Presets" Name="Automatic Removing Process" Selected="true" />
+    <Element Category="Presets" Name="Automatic Removing Process" Selected="false" />
     <Element Category="Presets" Name="Automatic Removing Process (Optimize ISO Size)" Selected="false" />
     <Element Category="Presets" Name="Automatic Removing Process (Expert Optimization)" Selected="false" />
     <Element Category="Presets" Name="Protect Important Files" Selected="true" />
     <Element Category="Presets" Name="Protect ModernUI Apps" Selected="true" />
     <Element Category="Presets" Name="Protect MS Online Account" Selected="true" />
     <Element Category="Presets" Name="Protect MS Office" Selected="true" />
-    <Element Category="Presets" Name="Protect Sysprep" Selected="true" />
+    <Element Category="Presets" Name="Protect Sysprep" Selected="false" />
     <Element Category="Presets" Name="Protect VirtualBox" Selected="false" />
     <Element Category="Presets" Name="Protect VMware Player and Workstation" Selected="true" />
     <Element Category="Presets" Name="Protect Windows Activation GUI" Selected="true" />
