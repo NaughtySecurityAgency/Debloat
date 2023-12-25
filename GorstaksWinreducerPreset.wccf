@@ -3,7 +3,7 @@
 <Packages>
   <WinReducerEX>110</WinReducerEX>
   <Version>v3.7.5.0</Version>
-  <Date>12/24/2023 10:17:20 AM</Date>
+  <Date>12/25/2023 12:23:21 PM</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="true" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="true" Value="Safe Mode" />
@@ -784,7 +784,7 @@
     <Element Category="Remove - Modern UI Apps" Name="Web Media Extensions (VP9)" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Alarms" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Calculator" Selected="true" />
-    <Element Category="Remove - Modern UI Apps" Name="Windows Defender" Selected="false" />
+    <Element Category="Remove - Modern UI Apps" Name="Windows Defender" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Feature Experience Pack (Online)" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Feedback" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Windows Maps" Selected="true" />
@@ -1179,7 +1179,7 @@
     <Element Category="Settings" Name="Update and Security - For developers" Selected="false" />
     <Element Category="Settings" Name="Update and Security - Recovery" Selected="false" />
     <Element Category="Settings" Name="Update and Security - Troubleshoot" Selected="false" />
-    <Element Category="Settings" Name="Update and Security - Windows Defender" Selected="false" />
+    <Element Category="Settings" Name="Update and Security - Windows Defender" Selected="true" />
     <Element Category="Settings" Name="Update and Security - Windows Insider Program" Selected="false" />
     <Element Category="Settings" Name="Update and Security - Windows Update" Selected="false" />
     <Element Category="Settings" Name="Update and Security - Windows Update - Check for updates" Selected="false" />
@@ -1540,7 +1540,7 @@
     <Element Category="Services" Name="Remote Registry Service" Selected="true" Value="5" />
     <Element Category="Services" Name="Routing and Remote Access Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Secondary Logon Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Security Center Service" Selected="false" Value="" />
+    <Element Category="Services" Name="Security Center Service" Selected="true" Value="5" />
     <Element Category="Services" Name="Sensor Data Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Sensor Monitoring Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Server Service" Selected="true" Value="3" />
@@ -1577,9 +1577,9 @@
     <Element Category="Services" Name="Windows Connection Manager Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Container Isolation Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Windows Container Name Virtualization Service" Selected="true" Value="3" />
-    <Element Category="Services" Name="Windows Defender Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Windows Defender Security Center Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Windows Defender System Guard Service" Selected="false" Value="" />
+    <Element Category="Services" Name="Windows Defender Service" Selected="true" Value="5" />
+    <Element Category="Services" Name="Windows Defender Security Center Service" Selected="true" Value="5" />
+    <Element Category="Services" Name="Windows Defender System Guard Service" Selected="true" Value="5" />
     <Element Category="Services" Name="Windows Error Reporting Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Event Collector Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Font Cache Service" Selected="true" Value="3" />
