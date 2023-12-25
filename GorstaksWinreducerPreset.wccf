@@ -3,7 +3,7 @@
 <Packages>
   <WinReducerEX>110</WinReducerEX>
   <Version>v3.7.5.0</Version>
-  <Date>12/25/2023 12:49:58 PM</Date>
+  <Date>12/25/2023 1:08:20 PM</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="true" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="true" Value="Safe Mode" />
@@ -73,7 +73,7 @@
     <Element Category="Features" Name="Windows Defender Application Guard" Selected="true" Value="3" />
     <Element Category="Features" Name="Windows Identity Foundation 3.5" Selected="false" Value="" />
     <Element Category="Features" Name="Windows Media Player" Selected="true" Value="3" />
-    <Element Category="Features" Name="Windows PowerShell" Selected="false" Value="" />
+    <Element Category="Features" Name="Windows PowerShell" Selected="true" Value="3" />
     <Element Category="Features" Name="Windows Sandbox" Selected="true" Value="3" />
     <Element Category="Features" Name="Windows Search" Selected="false" Value="" />
     <Element Category="Features" Name="Windows Subsystem for Linux" Selected="true" Value="3" />
